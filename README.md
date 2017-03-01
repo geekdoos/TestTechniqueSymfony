@@ -24,7 +24,7 @@ How to install it
 -------------
 1 - git clone https://github.com/geekdoos/TestTechniqueSymfony.git
 OR
-1 - Download the zip file from the GitHube web site https://github.com/geekdoos/TestTechniqueSymfony
+1 - Download the zip file from the GitHube web site [1]https://github.com/geekdoos/TestTechniqueSymfony
 
 2 - cd to your TestTechniqueSymfony directory
 
@@ -40,3 +40,5 @@ All the Routes you need
 NB: It's not finalized / Il n'est pas finalisé
 
 #GeeKDooS (KHACHIAI Oussama)
+
+[1]https://github.com/geekdoos/TestTechniqueSymfony/archive/master.zip
