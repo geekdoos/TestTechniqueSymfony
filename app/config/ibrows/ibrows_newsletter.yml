@@ -5,18 +5,18 @@ ibrows_newsletter:
     mandantB:   ThisTokenIsNotSoSecretChangeItMandantB
   classes:
     model:
-      user:         Ibrows\AppBundle\Entity\User
-      mandant:      Ibrows\AppBundle\Entity\Newsletter\Mandant
-      newsletter:   Ibrows\AppBundle\Entity\Newsletter\Newsletter
-      subscriber:   Ibrows\AppBundle\Entity\Newsletter\Subscriber
-      unsubscribelog:   Ibrows\AppBundle\Entity\Newsletter\Unsubscribelog
-      design:       Ibrows\AppBundle\Entity\Newsletter\Design
-      block:        Ibrows\AppBundle\Entity\Newsletter\Block
-      group:        Ibrows\AppBundle\Entity\Newsletter\Group
-      readlog:      Ibrows\AppBundle\Entity\Newsletter\Log\ReadLog
-      sendlog:      Ibrows\AppBundle\Entity\Newsletter\Log\SendLog
-      sendsettings: Ibrows\AppBundle\Entity\Newsletter\SendSettings
-      mailjob:      Ibrows\AppBundle\Entity\Newsletter\MailJob
+      user:         AppBundle\Entity\User
+      mandant:      AppBundle\Entity\Newsletter\Mandant
+      newsletter:   AppBundle\Entity\Newsletter\Newsletter
+      subscriber:   AppBundle\Entity\Newsletter\Subscriber
+      unsubscribelog:   AppBundle\Entity\Newsletter\Unsubscribelog
+      design:       AppBundle\Entity\Newsletter\Design
+      block:        AppBundle\Entity\Newsletter\Block
+      group:        AppBundle\Entity\Newsletter\Group
+      readlog:      AppBundle\Entity\Newsletter\Log\ReadLog
+      sendlog:      AppBundle\Entity\Newsletter\Log\SendLog
+      sendsettings: AppBundle\Entity\Newsletter\SendSettings
+      mailjob:      AppBundle\Entity\Newsletter\MailJob
 
   filesystem:
       block:

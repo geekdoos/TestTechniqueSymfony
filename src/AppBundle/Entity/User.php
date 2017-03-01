@@ -32,6 +32,6 @@ class User extends BaseUser implements MandantUserInterface
 
     public function getMandant()
     {
-        // TODO: Implement getMandant() method.
+        return 'default';
     }
 }
