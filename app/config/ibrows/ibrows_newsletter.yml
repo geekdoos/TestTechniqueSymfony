@@ -9,6 +9,7 @@ ibrows_newsletter:
       mandant:      Ibrows\AppBundle\Entity\Newsletter\Mandant
       newsletter:   Ibrows\AppBundle\Entity\Newsletter\Newsletter
       subscriber:   Ibrows\AppBundle\Entity\Newsletter\Subscriber
+      unsubscribelog:   Ibrows\AppBundle\Entity\Newsletter\Unsubscribelog
       design:       Ibrows\AppBundle\Entity\Newsletter\Design
       block:        Ibrows\AppBundle\Entity\Newsletter\Block
       group:        Ibrows\AppBundle\Entity\Newsletter\Group
