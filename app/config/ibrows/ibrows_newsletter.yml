@@ -1,0 +1,27 @@
+ibrows_newsletter:
+  mandants:
+    default:    ThisTokenIsNotSoSecretChangeItdefault
+    mandantA:   ThisTokenIsNotSoSecretChangeItMandantA
+    mandantB:   ThisTokenIsNotSoSecretChangeItMandantB
+  classes:
+    model:
+      user:         Ibrows\AppBundle\Entity\User
+      mandant:      Ibrows\AppBundle\Entity\Newsletter\Mandant
+      newsletter:   Ibrows\AppBundle\Entity\Newsletter\Newsletter
+      subscriber:   Ibrows\AppBundle\Entity\Newsletter\Subscriber
+      design:       Ibrows\AppBundle\Entity\Newsletter\Design
+      block:        Ibrows\AppBundle\Entity\Newsletter\Block
+      group:        Ibrows\AppBundle\Entity\Newsletter\Group
+      readlog:      Ibrows\AppBundle\Entity\Newsletter\Log\ReadLog
+      sendlog:      Ibrows\AppBundle\Entity\Newsletter\Log\SendLog
+      sendsettings: Ibrows\AppBundle\Entity\Newsletter\SendSettings
+      mailjob:      Ibrows\AppBundle\Entity\Newsletter\MailJob
+
+  filesystem:
+      block:
+        # where to store uploaded files (e.g. image uploads)
+        directory:  "%kernel.root_dir%/../web/uploads/block"
+        # absolute path to the uploaded files
+        public:     /uploads/block
+        # Host for public url generation of images
+        host:       http://example.com
